@@ -14,6 +14,7 @@
 		05FC2A4D2BC5DBC600765921 /* Expense_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A4C2BC5DBC600765921 /* Expense_trackerTests.swift */; };
 		05FC2A572BC5DBC600765921 /* Expense_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A562BC5DBC600765921 /* Expense_trackerUITests.swift */; };
 		05FC2A592BC5DBC600765921 /* Expense_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A582BC5DBC600765921 /* Expense_trackerUITestsLaunchTests.swift */; };
+		05FC2A682BC5DC9600765921 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A672BC5DC9600765921 /* IntroScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		05FC2A522BC5DBC600765921 /* Expense-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FC2A562BC5DBC600765921 /* Expense_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_trackerUITests.swift; sourceTree = "<group>"; };
 		05FC2A582BC5DBC600765921 /* Expense_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05FC2A672BC5DC9600765921 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,8 @@
 		05FC2A392BC5DBC400765921 /* Expense-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				05FC2A662BC5DC7400765921 /* Model */,
+				05FC2A652BC5DC6400765921 /* View */,
 				05FC2A3A2BC5DBC400765921 /* Expense_trackerApp.swift */,
 				05FC2A3C2BC5DBC400765921 /* ContentView.swift */,
 				05FC2A3E2BC5DBC600765921 /* Assets.xcassets */,
@@ -127,6 +131,21 @@
 				05FC2A582BC5DBC600765921 /* Expense_trackerUITestsLaunchTests.swift */,
 			);
 			path = "Expense-trackerUITests";
+			sourceTree = "<group>";
+		};
+		05FC2A652BC5DC6400765921 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05FC2A672BC5DC9600765921 /* IntroScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05FC2A662BC5DC7400765921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FC2A3D2BC5DBC400765921 /* ContentView.swift in Sources */,
+				05FC2A682BC5DC9600765921 /* IntroScreen.swift in Sources */,
 				05FC2A3B2BC5DBC400765921 /* Expense_trackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
