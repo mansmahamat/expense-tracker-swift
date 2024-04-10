@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct IntroScreen: View {
-    @AppStorage("isFirstTime") private var isFirstTime: Bool = false
+    @AppStorage("isFirstTime") private var isFirstTime: Bool = true
     var body: some View {
         VStack(spacing : 15){
             Text("Welcome to the Expense tracker")
@@ -30,7 +30,9 @@ struct IntroScreen: View {
             
             Spacer(minLength: 10)
             
-            Button(action: {}, label: {
+            Button(action: {
+                isFirstTime = false
+            }, label: {
                 Text("Start")
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
