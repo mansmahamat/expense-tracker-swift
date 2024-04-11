@@ -27,7 +27,7 @@ struct Transaction: Identifiable {
     }
     
     var color: Color {
-        return tints.first(where: { $0.color == tintColor})?.value ?? .orange
+        return tints.first(where: { $0.color == tintColor})?.value ?? appTint
     }
 }
 

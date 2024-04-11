@@ -53,7 +53,7 @@ struct IntroScreen: View {
         HStack(spacing: 15){
             Image(systemName: symbol)
                 .font(.largeTitle)
-                .foregroundStyle(.teal)
+                .foregroundStyle(appTint.gradient)
                 .frame(width: 45)
             
             VStack(alignment: .leading, spacing: 4, content: {
