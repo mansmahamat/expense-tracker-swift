@@ -37,6 +37,10 @@ struct Recents: View {
                             
                             
                             // CARD VIEW
+                            CardView(income: 2044, expense: 4097)
+                            
+                            
+                            // CUSTOM SEGMENT CONTROL
                         } header: {
                             HeaderView(size)
                         }
@@ -45,11 +49,13 @@ struct Recents: View {
                     .padding(15)
                 }
             }
+            .background(.gray.opacity(0.15))
         }
         
         // Header View
-      
         }
+    
+    
     @ViewBuilder
     func HeaderView(_ size: CGSize) -> some View {
         HStack(spacing: 10) {

@@ -26,6 +26,7 @@
 		05FC2A7C2BC7D76900765921 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A7B2BC7D76900765921 /* View+Extensions.swift */; };
 		05FC2A7E2BC7D9D000765921 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A7D2BC7D9D000765921 /* Constants.swift */; };
 		05FC2A802BC7E75D00765921 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A7F2BC7E75D00765921 /* Date+Extensions.swift */; };
+		05FC2A832BC8188300765921 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC2A822BC8188300765921 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		05FC2A7B2BC7D76900765921 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		05FC2A7D2BC7D9D000765921 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		05FC2A7F2BC7E75D00765921 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		05FC2A822BC8188300765921 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		05FC2A652BC5DC6400765921 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05FC2A812BC8186600765921 /* Helpers */,
 				05FC2A712BC733CC00765921 /* TabView */,
 				05FC2A672BC5DC9600765921 /* IntroScreen.swift */,
 			);
@@ -193,6 +196,14 @@
 				05FC2A7B2BC7D76900765921 /* View+Extensions.swift */,
 				05FC2A7D2BC7D9D000765921 /* Constants.swift */,
 				05FC2A7F2BC7E75D00765921 /* Date+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		05FC2A812BC8186600765921 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				05FC2A822BC8188300765921 /* CardView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -331,6 +342,7 @@
 				05FC2A702BC72FF800765921 /* TintColor.swift in Sources */,
 				05FC2A772BC7CB4F00765921 /* Graphs.swift in Sources */,
 				05FC2A3D2BC5DBC400765921 /* ContentView.swift in Sources */,
+				05FC2A832BC8188300765921 /* CardView.swift in Sources */,
 				05FC2A6C2BC72B8E00765921 /* Category.swift in Sources */,
 				05FC2A6E2BC72E8F00765921 /* Transaction.swift in Sources */,
 				05FC2A732BC7CB0F00765921 /* Recents.swift in Sources */,
